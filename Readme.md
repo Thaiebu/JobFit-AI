@@ -51,7 +51,9 @@
    ```
 
 4. **Start your FastAPI backend** (required):
-
+    ```
+    python backend_api.py
+    ```
    Make sure your FastAPI server is running and accessible at the default base URL:
 
    ```
@@ -63,7 +65,7 @@
 5. **Run the Streamlit app:**
 
    ```bash
-   streamlit run app.py
+   streamlit run job_with_resume_ui.py
    ```
 
 ---
@@ -73,7 +75,8 @@
 ```
 jobfit-ai/
 │
-├── app.py                 # Main Streamlit application
+├── job_with_resume_ui.py                 # Main Streamlit application
+├── backend_api.py # Backend fast api
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project documentation
 ```
@@ -89,7 +92,7 @@ jobfit-ai/
 
 ## 🧪 Example Usage
 
-1. Run the app with `streamlit run app.py`.
+1. Run the app with `streamlit run job_with_resume_ui.py`.
 2. Upload your resume in the left panel.
 3. Enter a job search term like *"data scientist in Bangalore"*.
 4. View jobs and similarity scores based on your resume content.
