@@ -104,7 +104,7 @@ jobfit-ai/
 
 | Resume Upload                                  | Job Results with Match Score                    |
 | ---------------------------------------------- | ----------------------------------------------- |
-| ![Upload](https://via.placeholder.com/300x180) | ![Results](https://via.placeholder.com/300x180) |
+| <img src ='Resume_upload.png'/> |  <img src ='Result.png'/>
 
 ---
 
